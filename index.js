@@ -9,4 +9,4 @@ bot.on('ready', function () {
 
 
 
-bot.login('NDE1ODcyMDYxNDA0MjE3MzU1.DXdaEA.WIUDw5kPugvq3UmEUqPB8jVU-B8')
+bot.login('')
