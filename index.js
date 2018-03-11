@@ -1,6 +1,17 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
+const http = require('http');
 
+
+var server = http.createServer(function(req, res) {
+
+  res.writeHead(200);
+
+  res.end('AiirozBot deploy');
+
+});
+
+server.listen(8080);
 
 bot.on('ready', function () {
   console.log("Login")
