@@ -9,4 +9,4 @@ bot.on('ready', function () {
 
 
 
-bot.login('')
+bot.login('process.env.BOT_TOKEN');
