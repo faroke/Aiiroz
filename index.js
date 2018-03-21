@@ -179,4 +179,4 @@ bot.on("message", async function(message) {
 
 
 
-bot.login('TOKEN')
+bot.login('BOT_TOKEN')
